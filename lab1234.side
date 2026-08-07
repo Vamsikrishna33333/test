@@ -1,0 +1,471 @@
+{
+  "id": "cf384826-fac3-40d6-be4a-e168b64c4911",
+  "version": "2.0",
+  "name": "project 1",
+  "url": "https://demo.opencart.com/",
+  "tests": [{
+    "id": "237cfba1-731a-4105-a10e-c0e6e45857c0",
+    "name": "lab 3",
+    "commands": [{
+      "id": "8961427b-6f88-4f32-9e22-043587167da5",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b92a8df8-d938-48e6-9f89-9fe609d47493",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7b34a2b-cc06-4723-9726-624ea769e239",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [
+        ["linkText=Desktops", "linkText"],
+        ["css=.show:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktops')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/en-gb/catalog/desktops')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d6cfb4ec-0fec-4fdc-acfc-380a50c8a577",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [
+        ["linkText=Mac (1)", "linkText"],
+        ["css=.show li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mac (1)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/en-gb/catalog/desktops/mac')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mac (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c17e9425-0a25-4c93-8af0-40d7780647ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-sort",
+      "targets": [
+        ["id=input-sort", "id"],
+        ["css=#input-sort", "css:finder"],
+        ["xpath=//select[@id='input-sort']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "421e057f-438b-4673-afaa-87d43f143a01",
+      "comment": "",
+      "command": "select",
+      "target": "id=input-sort",
+      "targets": [],
+      "value": "label=Name (A - Z)"
+    }, {
+      "id": "3bf5670d-f174-418e-af95-c917c59e7c43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-group > button:nth-child(1)",
+      "targets": [
+        ["css=.button-group > button:nth-child(1)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/div/div[2]/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8080b8d-f215-4a07-989d-c14b1d0c3116",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.fa-shopping-cart",
+      "targets": [
+        ["css=.fa-shopping-cart", "css:finder"],
+        ["xpath=//div[@id='product-list']/div/div/div[2]/form/div/button/i", "xpath:idRelative"],
+        ["xpath=//form/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f529da53-3a95-4540-89d9-5967ce7e721e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.fa-shopping-cart",
+      "targets": [
+        ["css=.fa-shopping-cart", "css:finder"],
+        ["xpath=//div[@id='product-list']/div/div/div[2]/form/div/button/i", "xpath:idRelative"],
+        ["xpath=//form/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ed852d8-fd32-427b-9936-641e2b99f339",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.button-group > button:nth-child(2)",
+      "targets": [
+        ["css=.button-group > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/div/div[2]/form/div/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1297408e-09a2-4bf5-8208-5d5320a10c3b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.button-group > button:nth-child(2)",
+      "targets": [
+        ["css=.button-group > button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[3]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/div/div[2]/form/div/button[2]", "xpath:idRelative"],
+        ["xpath=//form/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "a236371e-0ced-45ba-ad98-7b9b4b5ce695",
+    "name": "lab 1",
+    "commands": [{
+      "id": "9301844e-45a3-4ec9-b168-917fcaf47fd7",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4bada4e1-fc97-4de2-912a-0add87a6c526",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "813x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d29f8d27-1084-4c53-87f6-e827546f9c93",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9efebdfc-66bc-4590-aba9-58fd3f698e9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "testing methods"
+    }, {
+      "id": "330a6330-04c0-4eb1-8b7c-117525c3b75b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bvUkz",
+      "targets": [
+        ["css=.bvUkz", "css:finder"],
+        ["xpath=//button/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "c7163139-6106-495b-adf0-e4750160ee18",
+    "name": "lab 2",
+    "commands": [{
+      "id": "694fb9aa-d4e1-4f70-80ca-e9600d46df74",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cfc3c7c9-26ba-4afa-9dd1-51fef8dcb68f",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x700",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abc2fc74-f7a6-41cd-b0ac-3a98a46368ff",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1079bd5c-f5fd-414d-8455-c78b36c34f21",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [],
+      "value": "Mobile"
+    }, {
+      "id": "bb354ddd-9604-4452-b150-a3e0338cd055",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-light",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f33a4b3c-b920-4cf7-8aa7-c3e12038a633",
+      "comment": "",
+      "command": "pause",
+      "target": "1000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c667c39d-9d59-415d-b442-501c6e66e168",
+      "comment": "",
+      "command": "echo",
+      "target": "Search Completed",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "331d7430-bf5b-489f-b72f-987f6b4bf318",
+    "name": "lab 4",
+    "commands": [{
+      "id": "3c1e3f26-1a22-4c00-bf8b-787bed2cbeaa",
+      "comment": "",
+      "command": "open",
+      "target": "https://demo.opencart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1bcad58-618d-40dc-9cbd-9227e4490e59",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ef1b7053-690a-4039-b21e-71ea77627a59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Desktops",
+      "targets": [
+        ["linkText=Desktops", "linkText"],
+        ["css=.show:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(text(),'Desktops')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/en-gb/catalog/desktops')]", "xpath:href"],
+        ["xpath=//nav/div[2]/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Desktops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d04d009c-84f4-404f-bb9f-90fe580989db",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mac (1)",
+      "targets": [
+        ["linkText=Mac (1)", "linkText"],
+        ["css=.show li:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Mac (1)')]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/en-gb/catalog/desktops/mac')]", "xpath:href"],
+        ["xpath=//div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mac (1)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d3f6ff-4ea5-461a-b6d2-59961070b18c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=button-list",
+      "targets": [
+        ["id=button-list", "id"],
+        ["css=#button-list", "css:finder"],
+        ["xpath=//button[@id='button-list']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e727e9e6-09d5-40f4-a7e9-924451a4d545",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=button-list",
+      "targets": [
+        ["id=button-list", "id"],
+        ["css=#button-list", "css:finder"],
+        ["xpath=//button[@id='button-list']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b225585f-ddfb-425c-9ad9-6d7c8129f0ac",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=button-grid",
+      "targets": [
+        ["id=button-grid", "id"],
+        ["css=#button-grid", "css:finder"],
+        ["xpath=//button[@id='button-grid']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "407000b0-8b40-46bb-96b2-9b73fab86fbd",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=button-grid",
+      "targets": [
+        ["id=button-grid", "id"],
+        ["css=#button-grid", "css:finder"],
+        ["xpath=//button[@id='button-grid']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "88a01495-a9f5-4267-867d-5f5c5ab446de",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-sort",
+      "targets": [
+        ["id=input-sort", "id"],
+        ["css=#input-sort", "css:finder"],
+        ["xpath=//select[@id='input-sort']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[3]/div/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d8ba6fe-2e55-401f-8180-4cfd2749e3a7",
+      "comment": "",
+      "command": "select",
+      "target": "id=input-sort",
+      "targets": [],
+      "value": "label=Name (A - Z)"
+    }, {
+      "id": "2dff7805-3214-4f6e-b593-ef7c09af302d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button-group > button:nth-child(1)",
+      "targets": [
+        ["css=.button-group > button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/div/div[2]/form/div/button", "xpath:idRelative"],
+        ["xpath=//form/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aad97bc3-cc20-489b-a765-6c6c34154cc0",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f64363ae-8051-4fff-a6ac-183506638abb",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=.form-control", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "monitors"
+    }, {
+      "id": "5d7fc42f-69c9-4bb0-91b9-dd618009f1bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-lg:nth-child(2)",
+      "targets": [
+        ["css=.btn-lg:nth-child(2)", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d816468-eb51-426b-80a8-06fb32ffc927",
+      "comment": "",
+      "command": "click",
+      "target": "css=main",
+      "targets": [
+        ["css=main", "css:finder"],
+        ["xpath=//main", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d85a241-741d-4804-a9d9-17a1d6364e28",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-search",
+      "targets": [
+        ["id=input-search", "id"],
+        ["css=#input-search", "css:finder"],
+        ["xpath=//input[@id='input-search']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "309e73cb-8d77-419b-9df7-81ae0ed5e6ba",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-description",
+      "targets": [
+        ["id=input-description", "id"],
+        ["name=description", "name"],
+        ["css=#input-description", "css:finder"],
+        ["xpath=//input[@id='input-description']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dd418cfe-6203-49a1-b8da-46599e871197",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-search",
+      "targets": [
+        ["id=button-search", "id"],
+        ["css=#button-search", "css:finder"],
+        ["xpath=//button[@id='button-search']", "xpath:attributes"],
+        ["xpath=//div[@id='content']/div[3]/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d19eaab7-eff9-45a6-bce7-92affb1fb768",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["237cfba1-731a-4105-a10e-c0e6e45857c0"]
+  }],
+  "urls": ["https://www.google.com/", "https://example.com/", "https://demo.opencart.com/"],
+  "plugins": []
+}
